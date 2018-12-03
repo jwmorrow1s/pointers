@@ -4,7 +4,7 @@ Pointers is an exercise in understanding pointer use in C. It consists of five f
 
 `void swap(int *a, int *b)` - takes the address of two ints and swaps their values.
 
-`const char *find_char(const char str, char c)` takes a string and a char and locates the
+`const char *find_char(const char *str, char c)` takes a string and a char and locates the
 char inside of the string, then returns the address of its location within the string.
 
 `void string_copy(const char *a, const char * b)` takes an adequately-sized empty char array
